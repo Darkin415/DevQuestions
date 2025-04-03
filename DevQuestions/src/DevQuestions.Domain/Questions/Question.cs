@@ -15,6 +15,8 @@ namespace DevQuestions.Domain.Questions
         public required Guid UserId { get; set; }
         public List<Answer> Answers { get; set; } = [];
         public Answer? Solution { get; set; }
+        public List<Guid> Tags { get; set; } = [];
+       
 
     }
 }
